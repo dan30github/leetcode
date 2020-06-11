@@ -1,5 +1,5 @@
 class Solution {
-    public int[] shuffle(final int[] nums, final int n) {
+    public int[] shuffle(int[] nums, int n) {
         /*
          * ID: 1470 Given the array nums consisting of 2n elements in the form
          * [x1,x2,...,xn,y1,y2,...,yn].
@@ -11,7 +11,7 @@ class Solution {
          * Space: O(n)
          */
 
-        final int[] output = new int[n * 2];
+        int[] output = new int[n * 2];
         
         int index = 0;
         
